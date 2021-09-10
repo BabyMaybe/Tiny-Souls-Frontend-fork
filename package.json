@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@openzeppelin/contracts": "^4.2.0",
+    "@reduxjs/toolkit": "^1.6.1",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
@@ -14,11 +15,10 @@
     "react": "^17.0.2",
     "react-canvas-draw": "^1.1.1",
     "react-dom": "^17.0.2",
-    "react-redux": "^7.2.4",
+    "react-redux": "^7.2.5",
     "react-scripts": "4.0.3",
     "react-signature-canvas": "^1.0.3",
-    "redux": "^4.1.1",
-    "redux-thunk": "^2.3.0",
+    "redux-toolkit": "^1.1.2",
     "styled-components": "^5.3.0",
     "web-vitals": "^1.0.1",
     "web3": "^1.5.1"
@@ -48,6 +48,12 @@
     ]
   },
   "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.25.1",
+    "eslint-plugin-react-hooks": "^4.2.0",
     "truffle-plugin-verify": "^0.5.14"
   }
 }
